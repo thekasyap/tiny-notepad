@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf0f6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.editor {
+    height: 300px;
+    border: 1px solid #d1d9e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.save-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.clear-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.view-notes {
+    background-color: #007bff;
+    color: white;
+}
+
+.new-note {
+    background-color: #ffc107;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.note-list {
+    margin-top: 30px;
+}
+
+.note-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fefefe;
+    border: 1px solid #cfd8e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-actions {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #555;
+}
+
+.footer-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
